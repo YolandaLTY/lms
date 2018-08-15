@@ -1,0 +1,316 @@
+/* css清除默认样式*/
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  li,
+  ol,
+  dl,
+  dt,
+  dd,
+  div,
+  span,
+  a,
+  b,
+  i,
+  strong,
+  em,
+  img,
+  form,
+  input,
+  textarea,
+  table,
+  th,
+  td,
+  section,button {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+  }
+  
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+  }
+  
+  html, body {
+    background: #F5F7FC;
+    -webkit-overflow-scrolling: touch;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+  }
+  
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  }
+  
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #9B9B9B;
+  }
+  
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #9B9B9B;
+  }
+  
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #9B9B9B;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #9B9B9B;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium, Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+    font-weight: 400;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /*a的默认下划线和字体颜色|移动端点击蓝边*/
+  
+  a:hover {
+    text-decoration: none !important;
+    color: @primary-color;
+  }
+  
+  i,
+  em {
+    font-style: normal;
+  }
+  
+  strong,
+  b {
+    font-weight: normal;
+  }
+  
+  /*浮动*/
+  
+  .fl {
+    float: left !important;
+  }
+  
+  .fr {
+    float: right !important;
+  }
+  
+  .fn {
+    float: none !important;
+  }
+  
+  /*清除浮动*/
+  
+  .clearfix:after,
+  .cl:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
+  .clearfix,
+  .cl {
+    zoom: 1;
+  }
+  
+  /*定位*/
+  
+  .po_re {
+    position: relative;
+  }
+  
+  .po_ab {
+    position: absolute;
+  }
+  
+  /*文字对齐方式*/
+  
+  .font_left {
+    text-align: left !important;
+  }
+  
+  .font_cen {
+    text-align: center !important;
+  }
+  
+  .font_right {
+    text-align: right !important;
+  }
+  
+  /*溢出隐藏*/
+  
+  .over_hide {
+    overflow: hidden;
+  }
+  
+  .over_hide_point {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  
+  .color-a4 {
+    color: #4A4A4A;
+  }
+  
+  .color-9b {
+    color: #9B9B9B;;
+  }
+  
+  .color-red {
+    color: #EC4E36;
+  }
+  
+  .color-ora {
+    color: #F8992F;
+  }
+  
+  .color-blue {
+    color: #427FF7;
+  }
+  
+  .green {
+    color: #059150;
+  }
+  
+  .bg-red {
+    background: #EC4E36;
+  }
+  
+  .bg-green {
+    background: #059150;
+  }
+  
+  .bg-ora {
+    background: #F8992F;
+  }
+  
+  .text-align-left {
+    text-align: left;
+  }
+  
+  .text-align-center {
+    text-align: center;
+  }
+  
+  .text-align-right {
+    text-align: right;
+  }
+  
+  .inline-block {
+    display: inline-block;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .f14 {
+    font-size: 14px;
+  }
+  
+  .f12 {
+    font-size: 12px;
+  }
+  .f13{
+    font-size: 13px;
+  }
+  .f20 {
+    font-size: 20px;
+  }
+  
+  .fa {
+    font-weight: 400;
+  }
+  
+  .mt10 {
+    margin-top: 10px;
+  }
+  
+  .mb10 {
+    margin-bottom: 10px;
+  }
+  
+  .mt20 {
+    margin-top: 20px;
+  }
+  
+  .ml20 {
+    margin-left: 20px;
+  }
+  
+  .pd10 {
+    padding: 10px;
+  }
+  
+  .mt5 {
+    margin-top: 5px;
+  }
+  
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  
+  .mlr20 {
+    margin: 0px 20px;
+  }
+  
+  .dt {
+    font-weight: 600;
+    color: #4A4A4A;
+  }
+  
+  .sta {
+    padding: 2px 4px;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }
+  
+  .cx {
+    color: #427FF7;
+  }
+  
