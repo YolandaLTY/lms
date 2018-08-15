@@ -3,7 +3,7 @@
         <ul class="list-wrap">
             <li>
                 <div class="img-wrap"></div>
-                <div class="content-wrap">
+                <div class="content-wrap">ff
                     <p>金融街下午茶2018年7月2日星期 一金融大街</p>
                     <div class="show-wrap">
                         <span class="left">17:22</span>
