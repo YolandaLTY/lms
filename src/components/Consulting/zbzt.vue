@@ -40,8 +40,37 @@ export default {
 }
 </script>
 <style>
-li {
-    
+.list-wrap li {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.img-wrap {
+    width: 2.44rem;
+    height: 1.56rem;
+    float: left;
+    background: red;
+}
+.content-wrap {
+    margin-left: 2.6rem;
+    height: 1.56rem;
+    position: relative;
+}
+.content-wrap p {
+    font-size: 15px;
+    color: #4A4A4A;
+    text-align: left;
+}
+.show-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.show-wrap span {
+    display: block;
+    font-size: 12px;
+    color: #4A4A4A;
 }
 </style>
 

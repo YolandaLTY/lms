@@ -4,7 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import {install} from './index'
+import './assets/js/rem';
 import  './assets/css/base.css'
+// import Mint from 'mint-ui';
+// Vue.use(Mint);
+// import { Swipe, SwipeItem } from 'mint-ui';
+// Vue.component(Swipe.name, Swipe);
+// Vue.component(SwipeItem.name, SwipeItem);
+
 document.addEventListener('DOMContentLoaded', function () {
   if (window.FastClick) window.FastClick.attach(document.body);
 }, false);
