@@ -4,6 +4,8 @@ import Header from './packages/header/header';
 import Navbar from './packages/navbar/navbar';
 import Swipe from './packages/swipe/src/swipe';
 import swipeItem from './packages/swipe-item';
+import Week from './packages/week/week';
+// import DatetimePicker from './packages/datetime-picker/src/datetime-picker';
 const install = function (Vue, config = {}) {
     if (install.installed) return;
     Vue.component(Tabbar.name, Tabbar);
@@ -12,6 +14,7 @@ const install = function (Vue, config = {}) {
     Vue.component(Navbar.name, Navbar);
     Vue.component(Swipe.name, Swipe);
     Vue.component(swipeItem.name, swipeItem);
+    // Vue.component(DatetimePicker.name, DatetimePicker);
     // Vue.$toast = Vue.prototype.$toast = Toast;
     // Vue.$messagebox = Vue.prototype.$messagebox = MessageBox;
     // Vue.$indicator = Vue.prototype.$indicator = Indicator;
